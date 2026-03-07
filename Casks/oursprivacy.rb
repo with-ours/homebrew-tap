@@ -3,7 +3,7 @@ cask "oursprivacy" do
   name "oursprivacy"
   desc ""
   homepage "https://oursprivacy.com"
-  version "1.2.0"
+  version "1.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -18,22 +18,22 @@ cask "oursprivacy" do
   on_macos do
     on_intel do
       url "https://github.com/with-ours/platform-cli/releases/download/v#{version}/oursprivacy_#{version}_macos_amd64.zip"
-      sha256 "02e1a8d8d6f2cd7dea93236bdfe6769c89c022094ca6a095b2ad8163be2f5834"
+      sha256 "7d6b735b1540414cfb00dafa33ef851157269c673301659fb1641c97bdc47430"
     end
     on_arm do
       url "https://github.com/with-ours/platform-cli/releases/download/v#{version}/oursprivacy_#{version}_macos_arm64.zip"
-      sha256 "7dcec41328f3f0fb2f42770ebfd9fb16d98542ec5c1be2b547506ac805b689b1"
+      sha256 "cf3bc198e7d8a5d3e328a75f29f700f997db1b752558262d6c1130bd19c08664"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/with-ours/platform-cli/releases/download/v#{version}/oursprivacy_#{version}_linux_amd64.tar.gz"
-      sha256 "1fcfc0fa2fc12cfed4bd2b911e942067a7a9c77feca37b729e2111d86b960efe"
+      sha256 "dd840baeb0d0a96b740621cd96a33bb1cf1a1ae79c88440cc977999414d057d5"
     end
     on_arm do
       url "https://github.com/with-ours/platform-cli/releases/download/v#{version}/oursprivacy_#{version}_linux_arm64.tar.gz"
-      sha256 "c61e2167e378703847ade3e7015a1706c1ad2b6533c7a3ab763f8b4c93708b67"
+      sha256 "0ad152c33ba1cffe9f7da1420fc0fa185b96d14d66af062193a76268d8abfc0a"
     end
   end
 
